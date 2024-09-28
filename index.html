@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lista de Productos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="cuerpo">
+  <section class="flex-container">
+  <h1>Compra de Productos</h1>
+
+<section class="flex-container2">
+  
+  <div class="caja">
+    <label for="product-name">Nombre del producto:</label>
+    <input class="input" type="text" autofocus id="product-name" placeholder="Producto"> 
+  </div>
+  
+  <div class="caja">
+    <label for="product-quantity">Cantidad:</label>
+    <input class="input" type="number" id="product-quantity" placeholder="Cantidad" min="1" value="1">
+  </div>
+  
+  <div class="caja">
+    <label for="product-cost">Costo del producto:</label>
+    <input class="input" type="number" id="product-cost" placeholder="Costo">
+  </div>
+</section>
+  
+  <button class="boton" onclick="agregarProducto()">AGREGAR PRODUCTO</button>
+  
+  <table id="product-table">
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Cantidad</th>
+        <th>Costo</th>
+        <th>Subtotal</th>
+      </tr>
+    </thead>
+    <tbody class="centrartexto">
+      <!-- Lista de productos -->
+    </tbody>
+  </table>
+
+  <h2>Total: $<span id="total">0.00</span></h2>
+
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>

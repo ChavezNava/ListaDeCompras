@@ -1,0 +1,128 @@
+body{
+    background: url("imagenes/fondo01.png");
+    background-size: cover;
+    font-size: 18pt;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: 42pt;
+  }
+  .cuerpo{
+    margin: 30px;
+  }
+
+  table {
+    color: black;
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  table, th, td {
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  th, td {
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    color: black;
+    background-color: #f2f2f2;
+  }
+
+  td{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+  }
+
+  #total {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  label{
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-size: xx-large;
+    display: flex;
+    margin-right: 20px;
+    width: 100%;  
+    height: auto;
+
+  }
+
+  .input{
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: xx-large;
+    color: black;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+  }
+
+  .entradas{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    display: flexbox;
+    text-align: center;
+  }
+
+  .boton{
+    font-weight: bold;
+    font-size: 20pt;
+    border-radius: 20px;
+    margin: 5px;
+    height: 50px;
+    width: 350px;
+    display: flexblox;
+    text-align: center;
+    justify-content: center;
+
+  }
+
+.flex-container {
+ padding: 5px;
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ align-items: center;
+  }
+
+  .flex-container2{
+    font-weight: bold;
+    font-size: 20pt;
+    margin: 10px;
+    width: 100%;
+    float: left;
+    
+  }
+
+.caja{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+    margin-bottom: 5px; /* Ajusta el espaciado vertical según tus necesidades */
+    
+}
+
+.centrartexto{
+    text-align: center;
+}
+
+  #produc-table{
+    text-align: center;
+  }
