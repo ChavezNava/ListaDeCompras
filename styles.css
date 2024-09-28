@@ -1,6 +1,7 @@
 body{
     background: url("imagenes/fondo01.png");
     background-size: cover;
+    background-repeat: no-repeat;
     font-size: 18pt;
     align-items: center;
     justify-content: center;
